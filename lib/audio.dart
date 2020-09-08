@@ -62,7 +62,7 @@ myapp() {
           ],
         ),
         onPressed: () {
-          advancedPlayer.play("https://github.com/samyakjain9899/musicappflutter/raw/master/Imagine%20Dragons%20-%20Believer.mp3");
+          audioCache.play("believer.m3");
           Fluttertoast.showToast(
               msg: "Song is Played from the local assets",
               toastLength: Toast.LENGTH_SHORT,

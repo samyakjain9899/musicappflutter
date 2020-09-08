@@ -149,7 +149,7 @@ class NwVideo extends StatelessWidget {
 
 myvideo() {
   final videoPlayerController =
-      VideoPlayerController.network("https://github.com/samyakjain9899/musicappflutter/raw/master/ironman.mp4");
+      VideoPlayerController.asset("assets/videos/ironman.mp4");
   final chewieController = ChewieController(
     videoPlayerController: videoPlayerController,
     aspectRatio: 3 / 3,
